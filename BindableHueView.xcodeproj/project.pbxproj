@@ -1,0 +1,231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31FB4312146EEA5000CF8142 /* BindableHueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FB4311146EEA5000CF8142 /* BindableHueView.m */; };
+		31FB4315146EEA5000CF8142 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31FB4313146EEA5000CF8142 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31FB42FA146EEA5000CF8142 /* BindableHueView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BindableHueView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31FB4306146EEA5000CF8142 /* BindableHueView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BindableHueView-Info.plist"; path = "BindingConvenienceTest/BindableHueView-Info.plist"; sourceTree = "<group>"; };
+		31FB4310146EEA5000CF8142 /* BindableHueView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BindableHueView.h; path = BindingConvenienceTest/BindableHueView.h; sourceTree = "<group>"; };
+		31FB4311146EEA5000CF8142 /* BindableHueView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BindableHueView.m; path = BindingConvenienceTest/BindableHueView.m; sourceTree = "<group>"; };
+		31FB4314146EEA5000CF8142 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31FB42F7146EEA4F00CF8142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31FB42EF146EEA4F00CF8142 = {
+			isa = PBXGroup;
+			children = (
+				31FB4310146EEA5000CF8142 /* BindableHueView.h */,
+				31FB4311146EEA5000CF8142 /* BindableHueView.m */,
+				31FB4313146EEA5000CF8142 /* MainMenu.xib */,
+				31FB4306146EEA5000CF8142 /* BindableHueView-Info.plist */,
+				31FB42FB146EEA5000CF8142 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31FB42FB146EEA5000CF8142 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31FB42FA146EEA5000CF8142 /* BindableHueView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31FB42F9146EEA4F00CF8142 /* BindableHueView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31FB4318146EEA5000CF8142 /* Build configuration list for PBXNativeTarget "BindableHueView" */;
+			buildPhases = (
+				31FB42F6146EEA4F00CF8142 /* Sources */,
+				31FB42F7146EEA4F00CF8142 /* Frameworks */,
+				31FB42F8146EEA4F00CF8142 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BindableHueView;
+			productName = BindingConvenienceTest;
+			productReference = 31FB42FA146EEA5000CF8142 /* BindableHueView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31FB42F1146EEA4F00CF8142 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 31FB42F4146EEA4F00CF8142 /* Build configuration list for PBXProject "BindableHueView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 31FB42EF146EEA4F00CF8142;
+			productRefGroup = 31FB42FB146EEA5000CF8142 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31FB42F9146EEA4F00CF8142 /* BindableHueView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31FB42F8146EEA4F00CF8142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FB4315146EEA5000CF8142 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31FB42F6146EEA4F00CF8142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FB4312146EEA5000CF8142 /* BindableHueView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31FB4313146EEA5000CF8142 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31FB4314146EEA5000CF8142 /* en */,
+			);
+			name = MainMenu.xib;
+			path = BindingConvenienceTest;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31FB4316146EEA5000CF8142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		31FB4317146EEA5000CF8142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		31FB4319146EEA5000CF8142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "BindingConvenienceTest/BindableHueView-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+				);
+				PRODUCT_NAME = BindableHueView;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		31FB431A146EEA5000CF8142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "BindingConvenienceTest/BindableHueView-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+				);
+				PRODUCT_NAME = BindableHueView;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31FB42F4146EEA4F00CF8142 /* Build configuration list for PBXProject "BindableHueView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FB4316146EEA5000CF8142 /* Debug */,
+				31FB4317146EEA5000CF8142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31FB4318146EEA5000CF8142 /* Build configuration list for PBXNativeTarget "BindableHueView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FB4319146EEA5000CF8142 /* Debug */,
+				31FB431A146EEA5000CF8142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31FB42F1146EEA4F00CF8142 /* Project object */;
+}
